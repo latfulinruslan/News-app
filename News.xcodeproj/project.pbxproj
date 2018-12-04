@@ -16,6 +16,7 @@
 		4481C25B21B09602009F04B1 /* FirstTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481C25A21B09602009F04B1 /* FirstTableController.swift */; };
 		4481C25D21B0A780009F04B1 /* SecondTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481C25C21B0A780009F04B1 /* SecondTableController.swift */; };
 		4481C25F21B0AA79009F04B1 /* ThirdTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481C25E21B0AA79009F04B1 /* ThirdTableController.swift */; };
+		449B2CAE21B1E09100418468 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449B2CAD21B1E09100418468 /* SingleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4481C25A21B09602009F04B1 /* FirstTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableController.swift; sourceTree = "<group>"; };
 		4481C25C21B0A780009F04B1 /* SecondTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableController.swift; sourceTree = "<group>"; };
 		4481C25E21B0AA79009F04B1 /* ThirdTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTableController.swift; sourceTree = "<group>"; };
+		449B2CAD21B1E09100418468 /* SingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				4442917121B0210F00C2B5AB /* Assets.xcassets */,
 				4442917321B0210F00C2B5AB /* LaunchScreen.storyboard */,
 				4442917621B0210F00C2B5AB /* Info.plist */,
+				449B2CAF21B1E09B00418468 /* SingleView */,
 				4481C26021B0AA88009F04B1 /* TableViewControllers */,
 			);
 			path = News;
@@ -90,6 +93,14 @@
 				4481C25E21B0AA79009F04B1 /* ThirdTableController.swift */,
 			);
 			path = TableViewControllers;
+			sourceTree = "<group>";
+		};
+		449B2CAF21B1E09B00418468 /* SingleView */ = {
+			isa = PBXGroup;
+			children = (
+				449B2CAD21B1E09100418468 /* SingleViewController.swift */,
+			);
+			path = SingleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				4442916B21B0210C00C2B5AB /* AppDelegate.swift in Sources */,
 				4481C25B21B09602009F04B1 /* FirstTableController.swift in Sources */,
 				4442917D21B021E300C2B5AB /* Article.swift in Sources */,
+				449B2CAE21B1E09100418468 /* SingleViewController.swift in Sources */,
 				4481C25D21B0A780009F04B1 /* SecondTableController.swift in Sources */,
 				4442918021B024C700C2B5AB /* Model.swift in Sources */,
 			);
